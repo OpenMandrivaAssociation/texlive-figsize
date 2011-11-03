@@ -1,3 +1,9 @@
+# revision 18784
+# category Package
+# catalog-ctan /macros/latex/contrib/figsize
+# catalog-date 2006-12-13 12:28:27 +0100
+# catalog-license lppl
+# catalog-version 0.1
 Name:		texlive-figsize
 Version:	0.1
 Release:	1
@@ -48,6 +54,7 @@ sizes to be dynamic.
 %doc %{_texmfdistdir}/doc/latex/figsize/epsfig.eps
 %doc %{_texmfdistdir}/doc/latex/figsize/figsize.pdf
 %doc %{_texmfdistdir}/doc/latex/figsize/figsize.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ sizes to be dynamic.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
