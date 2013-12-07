@@ -6,7 +6,7 @@
 # catalog-version 0.1
 Name:		texlive-figsize
 Version:	0.1
-Release:	2
+Release:	3
 Summary:	Auto-size graphics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/figsize
