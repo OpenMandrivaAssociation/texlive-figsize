@@ -1,6 +1,6 @@
 Name:		texlive-figsize
 Version:	18784
-Release:	1
+Release:	2
 Summary:	Auto-size graphics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/figsize
