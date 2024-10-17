@@ -3,7 +3,7 @@ Version:	18784
 Release:	2
 Summary:	Auto-size graphics
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/figsize
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/figsize
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/figsize.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/figsize.doc.r%{version}.tar.xz
